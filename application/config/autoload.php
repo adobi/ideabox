@@ -39,7 +39,7 @@
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database', 'session', 'template', 'form_validation', 'encrypt');
+$autoload['libraries'] = array('database', 'session', 'template', 'form_validation', 'encrypt', 'mymodel');
 
 
 /*
@@ -110,7 +110,7 @@ $autoload['language'] = array();
 
 $autoload['model'] = array();
 
-$autoload['libraries'] = array('template');
+
 
 /* End of file autoload.php */
 /* Location: ./system/application/config/autoload.php */

@@ -21,12 +21,6 @@ class Welcome extends CI_Controller {
 	{
 		$this->template->build('welcome/welcome_message');
 	}
-	
-	
-	public function hello() 
-	{
-	    echo 'hello welcome';
-	}
 }
 
 /* End of file welcome.php */

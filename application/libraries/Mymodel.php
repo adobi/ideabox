@@ -9,8 +9,8 @@ if (! defined('BASEPATH')) exit('No direct script access');
  * 
  * @author Dobi Attila
  */
-require_once(BASEPATH.'libraries/Model'.EXT);
-class MY_Model extends Model 
+require_once(BASEPATH.'core/Model'.EXT);
+class Mymodel extends CI_Model 
 {
 
 	protected $_name;
@@ -25,7 +25,7 @@ class MY_Model extends Model
 	    //    throw new Exception('The name of the table and the primary key must be set');
 	    }
 	    
-		parent::Model();
+		parent::__construct();
 	}
 	
 	/**

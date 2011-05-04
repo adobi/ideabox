@@ -76,6 +76,22 @@ p {
     padding:5px;
 }
 
+h1 {
+    font-size:2em;
+}
+
+h2 {
+    font-size:1.8em;
+}
+
+h3 {
+    font-size:1.6em;
+}
+
+.hidden {
+    display:none;
+}
+
 div#container {
 	font-size:1.2em;
 	height:auto !important;
@@ -88,19 +104,20 @@ div#container {
 }
 
 div#header {
-	height:60px;
+	height:70px;
 	position:relative;
 	width:100%;
 	border:0px solid #ccc;
 	overflow:hidden;
+	border-bottom:1px solid #ccc;
 }
 #header-content {
     width:940px;
-    border:1px solid red;
+    border:0px solid red;
     margin:0 auto;
     text-align:left;
     padding:5px;
-    height:40px;
+    height:50px;
 }
 
 .round {
@@ -115,6 +132,7 @@ div#header {
     padding:8px;
     margin-left:20px;
     margin-right:200px;
+    margin-top:15px;
 }
 
 #filter-by {
@@ -144,9 +162,53 @@ div#content {
 	float:left;
 	padding:10px;
 	width:950px;
-	border:1px solid #ccc;	
+	border:0px solid #ccc;	
 }
 
+#save-idea {
+    font-size:18px;
+    padding:5px 8px;
+}
+
+#idea-box {
+    border:1px solid #ccc;
+    padding:5px;
+    font-family: Helvetica;
+}
+
+#tag-cloud {
+    border:1px solid red;
+    float:left;
+    padding:5px;
+    margin-left:20px;
+}
+#add-idea-box {
+    float:left;
+    border:1px solid red;
+    margin-left:0px;
+}
+
+#ideas-wrapper {
+    float:left;
+    width:930px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+#ideas-container {
+    float:left;
+    border:1px solid red;
+    padding:5px 0;
+    width:570px;
+}
+
+#idea-details {
+    border:1px solid red;
+    float:left;
+    margin-left:10px;
+    width:340px;
+    position:relative;
+}
 
 div#footer {
     border:0px solid #ccc;
